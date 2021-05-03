@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS estagio;
+
+USE estagio;
+
+CREATE TABLE texto(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    texto VARCHAR(200) NOT NULL,
+    criado DATE 
+);
